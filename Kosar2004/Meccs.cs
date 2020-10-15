@@ -21,6 +21,15 @@ namespace Kosar2004
             this.Ido = ido;
         }
 
+
+        public string Atalakit()
+        {
+            string a = Hazai + " - " + Idegen + " -  (" + HPont.ToString() + ") : (" + IPont.ToString() + ")";               
+
+
+            return a;
+        }
+
         //public Meccs(string sor)
         //{
         //    string[] a = sor.Split(';');
